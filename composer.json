@@ -1,0 +1,19 @@
+{
+    "name": "programmerzamannow/belajar",
+    "description": "belajar php composer hello",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Programmerzamannow\\Belajar\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "ayubazhari107",
+            "email": "ayubazhari107@gmail.com"
+        }
+    ],
+    "require": {
+        "php" : ">8.0"
+    }
+}
