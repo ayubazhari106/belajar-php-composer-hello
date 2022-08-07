@@ -7,7 +7,7 @@ class Customer {
 
     }
 
-    public functio sayHello(string $name) {
+    public function sayHello(string $name = "Guest") {
         echo "Hello $name, my name is $this->name" . PHP_EOL;
     }
 }
